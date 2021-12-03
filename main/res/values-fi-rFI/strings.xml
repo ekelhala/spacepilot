@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Space Pilot</string>
+    <string name="retry_button">Yritä uudelleen</string>
+    <string name="start_game">Uusi peli</string>
+    <string name="score_amount">Pisteesi</string>
+    <string name="score_explanation">Löysit:</string>
+    <string name="menu_button_text">Valikko</string>
+    <string name="distance_travelled">Lensit %1d kilometriä</string>
+    <string name="distance_travelled_highscore">paras tulos!</string>
+    <string name="shop_label">Työpaja</string>
+    <string name="game_over">Peli päättyi!</string>
+    <string name="shop_title">Paina osaa vaihtaaksesi sen</string>
+    <string name="main_module_label">Päämoduuli</string>
+    <string name="main_module_normal_hint">Päämoduuli on aluksesi tärkein osa. Osta uusia päämoduuleja tehdäksesi aluksestasi kestävämmän. \n+50 Kestävyyspistettä</string>
+    <string name="main_module_heavy_hint">Raskaasti panssaroitu Päämoduuli kuljetusaluksesta. Kestää suuria määrä osumia. \n+75 Kestävyyspistettä</string>
+    <string name="main_module_normal">Tavallinen Päämoduuli</string>
+    <string name="main_module_heavy">Kuljetusaluksen Päämoduuli</string>
+    <string name="wing_normal">Tavallinen ohjaussiiveke</string>
+    <string name="wing_normal_hint">Ihan tavallinen ohjaussiiveke, antaa melko hyvän ohjaustuntuman alukseesi. \n+25 Kestävyyspistettä, +20 Jarrutuspistettä</string>
+    <string name="wing_heavy">Kuljetusaluksen ohjaussiiveke</string>
+    <string name="wing_heavy_hint">Ohjaussiiveke kovaan käyttöön. Tämä osa voi ottaa vastaan paljon osumia ennen kuin rikkoutuu, mutta antaa huonomman ohjaustuntuman valtavan painonsa takia. \n+35 Kestävyyspistettä, +30 Jarrutuspistettä</string>
+    <string name="main_engine_label">Päämoottori</string>
+    <string name="main_engine_normal_hint">Päämoottori liikuttaa alustasi eteenpäin. Mikäli haluat aluksellesi enemmän nopeutta ja kestävyyttä, korvaa tämä osa uudella. \n+25 Kestävyyspistettä, +50 Vauhtipistettä</string>
+    <string name="main_engine_heavy_hint">Vahva päämoottori, joka on otettu kuljetusaluksesta. Tämä moottori tekee aluksestasi todellakin nopeamman \n+60 Kestävyyspistettä, +60 Vauhtipistettä</string>
+    <string name="main_engine_normal">Tavallinen päämoottori</string>
+    <string name="main_engine_heavy">Kuljetusaluksen päämoottori</string>
+    <string name="control_engine_label">Ohjausyksikkö</string>
+    <string name="control_engine_normal_hint">Ohjausyksikön avulla aluksesi liikkuu ylöspäin. Se on ehkä paras työkalu asteroiditörmäysten välttämiseksi. Päivitä tämä osa saadaksesi paremman ohjaustuntuman alukseesi. \n+25 Kestävyyspistettä, +40 Ohjauspistettä</string>
+    <string name="control_engine_heavy_hint">Tätä ohjausyksikköä käytettiin joskus ohjaamaan valtavaa kuljetusalusta. Täydellinen valinta sinulle, jos tykkäät törmäillä! \n+35 Kestävyyspistettä, +60 Ohjauspistettä</string>
+    <string name="control_engine_normal">Tavallinen ohjausyksikkö</string>
+    <string name="control_engine_heavy">Kuljetusaluksen ohjausyksikkö</string>
+    <string name="confirm_buy">Haluatko ostaa tämän esineen hintaan %1d kultaa?</string>
+    <string name="do_not_buy">Ei</string>
+    <string name="do_buy">Kyllä</string>
+    <string name="item_owned">Omistat tämän esineen</string>
+    <string name="item_not_owned">Et omista tätä esinettä</string>
+    <string name="ship_specs">Kestävyys: %1d \nVauhti: %2d \nOhjaus: %3d \nJarrutus: %4d</string>
+    <string name="tap_to_start">Napauta aloittaaksesi</string>
+    <string name="condition">"Kunto: "</string>
+    <string name="distance">"Matka: "</string>
+    <string name="best_score">Paras tuloksesi: %1d km</string>
+    <string name="instructions">Paina pitkään lentääksesi ylös!</string>
+    <string name="bonus">Parhaan tuloksen bonus: +20</string>
+</resources>

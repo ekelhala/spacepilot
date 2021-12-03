@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextureView
+        android:id="@+id/backgroundView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/goldIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:src="@raw/gold2"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"/>
+
+    <TextView
+        android:id="@+id/yourGold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:layout_toEndOf="@id/goldIcon"
+        android:layout_toRightOf="@id/goldIcon" />
+
+    <TextView
+        android:id="@+id/game_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:textSize="25sp"
+        android:textColor="@color/titleColor"
+        android:text="@string/game_title"/>
+
+    <TextView
+        android:id="@+id/game_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/game_title"
+        android:layout_alignLeft="@id/game_title"
+        android:layout_below="@id/game_title"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"
+        android:text="@string/game_subtitle" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <ImageButton style="@style/SecondaryButton"
+            android:id="@+id/aboutButton"
+            android:layout_marginRight="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_gravity="center"
+            android:src="@drawable/about_button"/>
+
+        <ImageButton style="@style/PlayButton"
+            android:id="@+id/start"/>
+
+        <ImageButton style="@style/SecondaryButton"
+            android:id="@+id/shopButton"
+            android:layout_gravity="center"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/workshop_button"
+            android:contentDescription="@string/shop_label"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/highScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"/>
+
+</RelativeLayout>

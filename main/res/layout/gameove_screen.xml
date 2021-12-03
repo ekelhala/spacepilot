@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@raw/sky">
+
+    <ImageButton style="@style/BackButton"
+        android:id="@+id/menu_button"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:contentDescription="@string/menu_button_text"/>
+
+    <TextView
+        android:id="@+id/highScoreView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_red_light"
+        app:fontFamily="@font/pixel_font"
+        android:textSize="12sp"
+        android:text="@string/distance_travelled_highscore"
+        android:textAllCaps="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_alignEnd="@id/gameover"
+        android:layout_alignRight="@id/gameover"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/gameover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fontFamily="@font/pixel_font"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:text="@string/distance_travelled"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/highScoreView"/>
+
+    <TextView
+        android:id="@+id/scoreExp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fontFamily="@font/pixel_font"
+        android:text="@string/score_explanation"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:layout_below="@id/gameover"
+        android:layout_marginTop="10dp"/>
+
+    <RelativeLayout
+        android:id="@+id/scores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/scoreExp"
+        android:layout_marginTop="10dp">
+
+    <ImageView
+        android:id="@+id/scoreicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/score_amount"
+        android:src="@raw/gold2"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp" />
+
+    <TextView
+        android:id="@+id/scoreDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fontFamily="@font/pixel_font"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_toEndOf="@id/scoreicon"
+        android:layout_toRightOf="@id/scoreicon" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/bonusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:text="@string/bonus"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/scores"
+        android:layout_marginTop="5dp"/>
+
+    <ImageButton style="@style/PlayButton"
+        android:id="@+id/retry_button"
+        android:layout_below="@id/bonusText"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/retry_button"/>
+
+</RelativeLayout>

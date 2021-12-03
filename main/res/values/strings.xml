@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Space Pilot</string>
+    <string name="game_over">Game over!</string>
+    <string name="retry_button">Retry</string>
+    <string name="start_game">New game</string>
+    <string name="score_amount">Your score</string>
+    <string name="score_explanation">You found:</string>
+    <string name="bonus">Best score bonus: +20</string>
+    <string name="menu_button_text">Menu</string>
+    <string name="best_score">Best score: %1d km</string>
+    <string name="instructions">Hold to fly up!</string>
+    <string name="distance_travelled">You travelled %1d kilometers</string>
+    <string name="distance_travelled_highscore">high score!</string>
+    <string name="shop_label">Workshop</string>
+    <string name="shop_title">Select a part to customize it</string>
+    <string name="main_module_label">Main Module</string>
+    <string name="main_module_normal_hint">Main Module is the most important part of your spacecraft. Unlock new Main Modules to make your spacecraft more durable. \n +50 Durability points</string>
+    <string name="main_module_heavy_hint">Heavily armored Main Module taken from cargo ship. Can withstand significant amount of hits. \n +75 Durability points</string>
+    <string name="main_module_heavy">Cargo ship Main Module</string>
+    <string name="wing_normal">Basic steering wing</string>
+    <string name="wing_normal_hint">Basic steering wing, provides good control over your ship. \n +25 Durability points, +20 Braking points</string>
+    <string name="wing_heavy">Cargo ship steering wing</string>
+    <string name="wing_heavy_hint">Steering wing made for heavy use. This wing can take large amount of hits before breaking down but provides poorer control due to its massive weight   +35 Durability points, +30 Braking points</string>
+    <string name="main_engine_label">Main engine</string>
+    <string name="main_engine_normal_hint">Main engine is used to move your spacecraft forward. Upgrade it to new one for more speed and durability \n +25 Durability points, +50 Movement points</string>
+    <string name="main_engine_heavy_hint">Strong main engine taken from cargo ship. This part will definitely make your ship faster. \n +60 Durability points, +60 Movement points</string>
+    <string name="main_engine_normal">Basic Main engine</string>
+    <string name="main_engine_heavy">Cargo ship Main engine</string>
+    <string name="control_engine_label">Control Unit</string>
+    <string name="control_engine_normal_hint">Control Unit is used to move your ship upwards. It is the most important tool for avoiding crashes with asteroids. Upgrade your Control Unit for better control over your spacecraft.   +25 Durability points, +40 Steering points</string>
+    <string name="control_engine_heavy_hint">This Control Unit was once used to control a massive cargo ship. Perfect for those who love crashing into things! \n +35 Durability points, +60 Steering points</string>
+    <string name="control_engine_normal">Basic Control Unit</string>
+    <string name="control_engine_heavy">Cargo ship Control Unit</string>
+    <string name="confirm_buy">Do you want to buy this item for %1d gold?</string>
+    <string name="do_not_buy">No</string>
+    <string name="do_buy">Yes</string>
+    <string name="item_owned">You own this item</string>
+    <string name="item_not_owned">You don\'t own this item</string>
+    <string name="ship_specs">Durability: %1d \nMovement: %2d \nSteering: %3d \nBraking: %4d</string>
+    <string name="main_module_normal">Basic Main Module</string>
+    <string name="tap_to_start">Tap to start</string>
+    <string name="condition">Condition: </string>
+    <string name="distance">Distance: </string>
+    <string name="game_title" translatable="false">Space</string>
+    <string name="game_subtitle" translatable="false">Pilot</string>
+    <string name="tutorial_start" translatable="false">Hello pilot! You must be new here. \nLet me show you couple of things</string>
+    <string name="tutorial_controls" translatable="false">This is your ship. \n Main motor moves it forwards automatically. \nAll you have to do is press or release your screen \nto use the control unit attached to the bottom. \nYou can also buy better parts for your ship from the shop in the main menu.</string>
+    <string name="tutorial_objects_asteroid" translatable="false">There is also two types of objects you will see during your journey. \nThis one is a regular asteroid. \nWatch out for these since every collision with this \ntype of asteroid will reduce your health.</string>
+    <string name="tutorial_objects_gold" translatable="false">Here is another type of asteroid. \nAs you can see, it is entirely golden. \nThis is the type of asteroid you should collect. \nThe more distance you cover the more gold you get out of each asteroid.</string>
+    <string name="tutorial_end" translatable="false">That was my advice for you pilot, now go and enjoy your journey. \nAnd remember, no collisions with those asteroids!</string>
+    <string name="credits_header" translatable="false">Credits</string>
+    <string name="credits_font" translatable="false">Font: FFF Forward by Fonts For Flash</string>
+    <string name="credits_creator" translatable="false">Programming, design, etc: Emil Kelhälä</string>
+</resources>
